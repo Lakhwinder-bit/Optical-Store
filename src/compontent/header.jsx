@@ -2,7 +2,7 @@ import { Search, User, ShoppingCart } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="w-full bg-[#f3f0ea] fixed ">
+    <header className="w-full bg-[#f3f0ea] fixed z-90">
 
       {/* Top Navbar */}
       <div className="flex items-center justify-between px-10 py-4">

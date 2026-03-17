@@ -1,7 +1,10 @@
-export default function HomePage(){
-    return(
-        <>
-        <h1 className="text-black">This is home page</h1>
-        </>
-    )
+import React from "react";
+import HeroSlider from "../compontent/homeSlider";
+
+export default function HomePage() {
+  return (
+  <>
+  <HeroSlider/>
+  </>
+  );
 }

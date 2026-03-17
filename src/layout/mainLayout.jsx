@@ -6,10 +6,10 @@ export default function MainLayout() {
   return (
     <>
       {/* Header */}
-      <Header />
+      <Header  className="z-50"/>
 
       {/* Page Content */}
-      <main className="min-h-screen">
+      <main className="pt-20">
         <Outlet />
       </main>
 

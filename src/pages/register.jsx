@@ -2,7 +2,6 @@ export default function Signup() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
       <div className="w-full max-w-2xl text-center">
-
         {/* Title */}
         <h1 className="text-4xl font-serif text-amber-900 mb-4">
           CREATE AN ACCOUNT
@@ -15,7 +14,6 @@ export default function Signup() {
 
         {/* Form */}
         <form className="space-y-5">
-
           {/* First + Last Name */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input
@@ -46,9 +44,7 @@ export default function Signup() {
           />
 
           {/* Button */}
-          <button
-            className="w-full bg-[#382a1f] text-white py-3 rounded-lg hover:scale-102 cursor-pointer transition"
-          >
+          <button className="w-full bg-[#382a1f] text-white py-3 rounded-lg hover:scale-102 cursor-pointer transition">
             Create an account
           </button>
         </form>
@@ -57,12 +53,9 @@ export default function Signup() {
         <p className="mt-6 text-gray-700">
           Already have an account?{" "}
           <span className="font-semibold cursor-pointer">
-            <a href="/login">
-            Login →
-            </a>
+            <a href="/login">Login →</a>
           </span>
         </p>
-
       </div>
     </div>
   );
