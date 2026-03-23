@@ -12,8 +12,7 @@ export default function Header() {
 
         {/* Logo */}
         <div className="text-center ps-30">
-          <h1 className="text-3xl font-semibold tracking-widest">DO</h1>
-          <p className="text-xs tracking-[4px]">DAYAL OPTICALS</p>
+         <img className="max-w-[80px]" src="/images/logo.png" alt="" />
         </div>
 
         {/* Right Section */}
@@ -46,24 +45,17 @@ export default function Header() {
       {/* Menu */}
       <nav className="flex justify-center gap-8 text-sm font-medium pb-4">
 
-        <a className="hover:text-green-900 cursor-pointer">SHOP</a>
-        <a className="hover:text-green-900 cursor-pointer">BRANDS</a>
+        <a  href="/Product"
+        className="hover:text-green-900 cursor-pointer">Eyeglasses</a>
+        <a className="hover:text-green-900 cursor-pointer">Sunglasses</a>
 
-        <div className="flex items-center gap-2">
-          <span>SALE</span>
-          <span className="bg-red-500 text-white text-xs px-2 py-0.5 rounded">
-            ENDS SOON
-          </span>
-        </div>
 
-        <a className="hover:text-green-900 cursor-pointer">
-          COLLECTOR'S EDITION
-        </a>
 
-        <a className="hover:text-green-900 cursor-pointer">SUNGLASSES</a>
-        <a className="hover:text-green-900 cursor-pointer">OPTICALS</a>
-        <a className="hover:text-green-900 cursor-pointer">OUR STORY</a>
-        <a className="hover:text-green-900 cursor-pointer">OUR BOUTIQUES</a>
+      
+
+        <a className="hover:text-green-900 cursor-pointer">Lenes</a>
+        <a className="hover:text-green-900 cursor-pointer">New arrivals</a>
+        <a className="hover:text-green-900 cursor-pointer">PG collection</a>
 
       </nav>
 

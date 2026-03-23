@@ -12,7 +12,7 @@ export default function sectionPage({hadding, title, img}){
   <img
     src={img}
     alt=""
-    className="w-full h-[450px] object-cover transition duration-500 group-hover:scale-110"
+    className="max-w-[500px] h-[450px] object-cover transition duration-500 group-hover:scale-110"
   />
 
   {/* Overlay */}
